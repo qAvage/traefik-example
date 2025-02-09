@@ -4,5 +4,3 @@ services:
   nginx:
     build:
       context: .
-    expose:
-    - "443"
