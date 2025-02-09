@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   traefik:
-    image: traefik:latest
+    build:
+      context: .
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock  # Для интеграции с Docker
-      - other:/etc/traefik/
