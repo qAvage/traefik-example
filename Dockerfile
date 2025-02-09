@@ -1,3 +1,3 @@
 FROM traefik:latest
 
-COPY ./other/traefik.yml ./etc/traefik/traefik.yml
+COPY ./config/nginx.conf ./etc/nginx/nginx.conf

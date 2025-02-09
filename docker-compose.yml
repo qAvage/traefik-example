@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  traefik:
+  nginx:
+    ports:
+      - "80:80"
     build:
       context: .
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock  # Для интеграции с Docker
