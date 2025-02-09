@@ -2,5 +2,7 @@ version: '3.8'
 
 services:
   nginx:
+    ports:
+      - "80:80"
     build:
       context: .
