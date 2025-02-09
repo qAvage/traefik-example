@@ -5,4 +5,4 @@ services:
     image: traefik:latest
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock  # Для интеграции с Docker
-      - ./other/traefik.yml:/etc/traefik/traefik.yml     # Конфигурация Traefik
+      - /other/traefik.yml:/etc/traefik/traefik.yml     # Конфигурация Traefik
