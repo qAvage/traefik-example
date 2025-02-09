@@ -6,4 +6,4 @@ services:
     container_name: traefik
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock  # Для интеграции с Docker
-      - ./traefik.yml:/etc/traefik/traefik.yml     # Конфигурация Traefik
+      - traefik.yml:/etc/traefik/traefik.yml     # Конфигурация Traefik
